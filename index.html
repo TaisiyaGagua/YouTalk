@@ -9,35 +9,43 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="fonts/font.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+
 </head>
 
 <body>
 
     <header class="header">
-        <div class="wrapper__logo">
-            <img src="images/svg/logo.svg" alt="логотип YouTalk">
+        <div class="wrapper">
+            <div class="wrapper__logo">
+                <img src="images/svg/logo.svg" alt="логотип YouTalk">
+            </div>
+
+            <nav class="header__nav">
+                <a href="#" class="header__link">O нас</a>
+                <a href="#" class="header__link">Тарифы</a>
+                <a href="#" class="header__link">Для бизнеса</a>
+                <a href="#" class="header__link">Психологам</a>
+                <a href="#" class="header__link">Сертификат</a>
+                <a href="#" class="header__link">Материалы</a>
+                <a href="#" class="header__link">FAQ</a>
+            </nav>
+
+            <button class="header__button">Подобрать психолога</button>
+
         </div>
-
-        <nav class="header__nav">
-            <a href="#" class="header__link">O нас</a>
-            <a href="#" class="header__link">Тарифы</a>
-            <a href="#" class="header__link">Для бизнеса</a>
-            <a href="#" class="header__link">Психологам</a>
-            <a href="#" class="header__link">Сертификат</a>
-            <a href="#" class="header__link">Материалы</a>
-            <a href="#" class="header__link">FAQ</a>
-        </nav>
-
-        <button class="header__button">Подобрать психолога</button>
-
-
     </header>
 
     <main class="main">
         <div class="breadcrumbs">
-            <a class="breadcrumbs_main" href="#">Главная</a>
+            <a class="breadcrumbs_main" href="#">
+                <p class="text">Главная</p>
+            </a>
             <img class="arrov" src="images/svg/arrov.svg" alt="arrov">
-            <a class="breadcrumbs_main2" href="#">Блог</a>
+            <a class="breadcrumbs_main" href="#">
+                <p class="text">Блог</p>
+            </a>
         </div>
 
         <div class="main__blog">
@@ -45,7 +53,7 @@
         </div>
 
         <div class="main__wrapper-button">
-            <button class="main__button main__button_1">&#128522; Все</button>
+            <button class="main__button main__button_1">&#128522;Все</button>
             <button class="main__button main__button_2">Самооценка и самопринятие</button>
             <button class="main__button main__button_3">&#129412; Self</button>
             <button class="main__button main__button_4">Чувства и эмоции</button>
@@ -56,148 +64,152 @@
             <button class="main__button main__button_9">Личное здоровье</button>
         </div>
 
-        <div class="main__article_first-block">
 
+        <div class="main__card">
+            <div class="main__article_first-block">
 
-            <div class="main__article1">
-                <article>
-                    <img class="main__article_img1" src="images/png/img1.png" alt="article picture">
-
-                    <div class="main__article-text-part1">
-                        <div class="main__article-textline1">
-                            <h2 class="main__headline1">Эмоциональное выгорание – стадии и симптомы, методы
-                                восстановления и
-                                профилактики
-                            </h2>
-                            <p class="main__author1">Автор: Лиза Файнтух</p>
-                            <p class="main__article_text1">Изначально термин «эмоциональное профессиональной сфере и
-                                относился...
-                            </p>
-                        </div>
-                        <p class="main__date1">21.08.2021</p>
-                    </div>
-                </article>
-            </div>
-
-            <div class="main__article2">
-
-                <article>
-                    <img class="main__article_img2" src="images/png/img2.png" alt="article picture">
-                    <div class="main__article-text-part2">
-                        <div class="main__article-textline2">
-                            <h2 class="main__headline2">Как не утонуть в тревоге и управлять своими страхами</h2>
-                            <p class="main__author2">Автор: Екатерина Бельтюкова</p>
-                            <p class="main__article_text2">Один из самых важных навыков, которые может дать работа с
-                                психотерапевтом
-                                -
-                                умение в разных ситуациях по-разному обходиться ...</p>
-                        </div>
-                        <p class="main__date2">11.08.2021</p>
-                    </div>
-                </article>
-            </div>
-        </div>
-
-        <div class="vector"></div>
-
-        <div class="main__article_second-block">
-            <article class="main__article main__article3">
-                <img class="main__img_second-block" src="images/png/img3.png" alt="article picture">
-                <div class="main__article-text-frame2">
-                    <div class="main__article_second-text-part">
-                        <h2 class="main__headline_second-block">Эмоциональное выгорание – стадии и симптомы, методы
+                <div class="article">
+                    <img class="article_img" src="images/png/img1.png" alt="article picture">
+                    <div class="cont__text">
+                        <h4 class="text">Эмоциональное выгорание – стадии и симптомы, методы
                             восстановления и
                             профилактики
-                        </h2>
-                        <p class="main__author_second-block">Автор: Лиза Файнтух</p>
-                        <p class="main__article_second-text">Изначально термин «эмоциональное профессиональной сфере и
+                        </h4>
+                        <p class="text">Автор: Лиза Файнтух</p>
+                        <p class="text">Изначально термин «эмоциональное профессиональной сфере и
                             относился...
                         </p>
+                        <p class="date">21.08.2021</p>
                     </div>
-                    <p class="main__date">21.08.2021</p>
+
                 </div>
-            </article>
 
-            <article class="main__article main__article4">
-                <img class="main__img_second-block" src="images/png/img4.png" alt="article picture">
-                <div class="main__article-text-frame2">
-                    <div class="main__article_second-text-part">
+                <div class="article">
+                    <img class="article_img" src="images/png/img2.png" alt="article picture">
+                    <div class="cont__text">
 
-                        <h2 class="main__headline_second-block">Как не утонуть в тревоге и управлять своими страхами
-                        </h2>
-                        <p class="main__author_second-block"> Автор: Екатерина Бельтюкова</p>
-
-                        <p class="main__article_second-text">Один из самых важных навыков, которые может дать работа с
-                            психотерапевтом -
+                        <h4 class="text">Как не утонуть в тревоге и управлять своими страхами</h4>
+                        <p class="text">Автор: Екатерина Бельтюкова</p>
+                        <p class="text">Один из самых важных навыков, которые может дать работа с
+                            психотерапевтом
+                            -
                             умение в разных ситуациях по-разному обходиться ...</p>
-                    </div>
-                    <p class="main__date">11.08.2021</p>
-                </div>
-            </article>
 
-            <article class="main__article main__article5">
-                <img class="main__img_second-block" src="images/png/img5.png" alt="article picture">
-                <div class="main__article-text-frame2">
-                    <div class="main__article_second-text-part">
-                        <h2 class="main__headline_second-block">Как управлять своими эмоциями: 8 шагов</h2>
-                        <p class="main__author_second-block">Автор: Екатерина Бельтюкова</p>
-                        <p class="main__article_second-text">Клиенты часто спрашивают, как КОНТРОЛИРОВАТЬ свои
-                            негативные
-                            эмоции. Пришло время об этом написать!</p>
+                        <p class="date">11.08.2021</p>
                     </div>
-                    <p class="main__date">07.08.2021</p>
                 </div>
-            </article>
+            </div>
         </div>
 
-        <div class="main__article_block main__article_third-block">
-            <article class="main__article main__article6">
-                <img class="main__img_second-block" src="images/png/img6.png" alt="article picture">
-                <div class="main__article-text-frame2">
-                    <div class="main__article_second-text-part">
-                        <h2 class="main__headline_second-block">Эмоциональное выгорание – стадии и симптомы, методы
+
+        <div class="vector"></div>
+        <div class="container">
+            <div class="main__card2">
+                <div class="article article2">
+                    <img class="article_img article_img2" src="images/png/img3.png" alt="article picture">
+                    <div class="cont__text cont__text2">
+
+                        <h4 class="text text2">Эмоциональное выгорание – стадии и симптомы, методы
                             восстановления и
                             профилактики
-                        </h2>
-                        <p class="main__author_second-block">Автор: Лиза Файнтух под редакцией Екатерины Бельтюковой</p>
-                        <p class="main__article_second-text">Изначально термин «эмоциональное я...</p>
-                    </div>
-                    <p class="main__date">21.08.2021</p>
-                </div>
-            </article>
+                        </h4>
+                        <p class="text text2">Автор: Лиза Файнтух</p>
+                        <p class="text text2">Изначально термин «эмоциональное профессиональной сфере
+                            и
+                            относился...
+                        </p>
 
-            <article class="main__article main__article7">
-                <img class="main__img_second-block" src="images/png/img7.png" alt="article picture">
-                <div class="main__article-text-frame2">
-                    <div class="main__article_second-text-part">
-                        <h2 class="main__headline_second-block">Как не утонуть в тревоге и управлять своими страхами
-                        </h2>
-                        <p class="main__author_second-block">Автор: Екатерина Бельтюкова</p>
-                        <p class="main__article_second-text">Один из самых важных навыков, которые может дать работа с
+                        <p class="date date2">21.08.2021</p>
+                    </div>
+                </div>
+
+                <div class="article article2">
+                    <img class="article_img article_img2" src="images/png/img4.png" alt="article picture">
+                    <div class="cont__text cont__text2">
+
+
+                        <h4 class="text text2">Как не утонуть в тревоге и управлять своими страхами
+                        </h4>
+                        <p class="text text2"> Автор: Екатерина Бельтюкова</p>
+
+                        <p class="text text2">Один из самых важных навыков, которые может дать работа
+                            с
                             психотерапевтом -
                             умение в разных ситуациях по-разному обходиться ...</p>
-                    </div>
-                    <p class="main__date">11.08.2021</p>
-                </div>
-            </article>
 
-            <article class="main__article main__article8">
-                <img class="main__img_second-block" src="images/png/img8.png" alt="article picture">
-                <div class="main__article-text-frame2">
-                    <div class="main__article_second-text-part">
-                        <h2 class="main__headline_second-block">Как управлять своими эмоциями: 8 шагов</h2>
-                        <p class="main__author_second-block">Автор: Екатерина Бельтюкова</p>
-                        <p class="main__article_second-text">Клиенты часто спрашивают, как КОНТРОЛИРОВАТЬ свои
+                        <p class="date date2 date3">11.08.2021</p>
+                    </div>
+                </div>
+
+                <div class="article article2">
+                    <img class="article_img article_img2" src="images/png/img5.png" alt="article picture">
+                    <div class="cont__text cont__text2">
+
+                        <h4 class="text text2">Как управлять своими эмоциями: 8 шагов</h4>
+                        <p class="text text2">Автор: Екатерина Бельтюкова</p>
+                        <p class="text text2">Клиенты часто спрашивают, как КОНТРОЛИРОВАТЬ свои
+                            негативные
+                            эмоции. Пришло время об этом написать!</p>
+
+                        <p class="date date2">07.08.2021</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="main__card2 main__card3">
+
+                <div class="article article2">
+
+                    <img class="article_img article_img2" src="images/png/img6.png" alt="article picture">
+                    <div class="cont__text cont__text2">
+
+                        <h4 class="text text2">Эмоциональное выгорание – стадии и симптомы, методы
+                            восстановления и
+                            профилактики
+                        </h4>
+                        <p class="text text2">Автор: Лиза Файнтух под редакцией Екатерины Бельтюковой
+                        </p>
+                        <p class="text text2">Изначально термин «эмоциональное я...</p>
+
+                        <p class="date date2">21.08.2021</p>
+                    </div>
+                </div>
+
+                <div class="article article2">
+                    <img class="article_img article_img2" src="images/png/img7.png" alt="article picture">
+                    <div class="cont__text cont__text2">
+
+                        <h4 class="text text2">Как не утонуть в тревоге и управлять своими страхами
+                        </h4>
+                        <p class="text text2">Автор: Екатерина Бельтюкова</p>
+                        <p class="text text2">Один из самых важных навыков, которые может дать работа
+                            с
+                            психотерапевтом -
+                            умение в разных ситуациях по-разному обходиться ...</p>
+
+                        <p class="date date2 date4">11.08.2021</p>
+                    </div>
+                </div>
+
+                <div class="article article2">
+                    <img class="article_img article_img2" src="images/png/img8.png" alt="article picture">
+                    <div class="cont__text cont__text2">
+
+                        <h4 class="text text2">Как управлять своими эмоциями: 8 шагов</h4>
+                        <p class="text text2">Автор: Екатерина Бельтюкова</p>
+                        <p class="text text2">Клиенты часто спрашивают, как КОНТРОЛИРОВАТЬ свои
                             негативные
                             эмоции.
                             Пришло
                             время об этом написать!</p>
-                    </div>
-                    <p class="main__date">07.08.2021</p>
-                </div>
-            </article>
-        </div>
 
+                        <p class="date date2">07.08.2021</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
         <button class="main__button_more">Ещё</button>
 
     </main>
