@@ -1,4 +1,50 @@
-@media (max-width:320px) {
+/* общие стили для header */
+.body {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    background: #FFFFFF;
+}
+
+.header {
+    width: 100%;
+    height: 76px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: inset 0px -2px 0px #EFF2F2;
+}
+
+.wrapper__logo {
+    width: 51px;
+    height: 36px;
+    margin-left: 10vw;
+    margin-top: 20px;
+}
+
+.header__link {
+    width: auto;
+    height: 16px;
+    display: flex;
+    flex: none;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    letter-spacing: 0.25px;
+    color: #333333;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    order: 0;
+    flex-grow: 0;
+}
+
+/*отключаю кнопку и навигацию на разрешении до 1025px*/
+@media (max-width: 1024px) {
     .header__nav {
         display: none;
     }
@@ -6,78 +52,9 @@
     .header__button {
         display: none;
     }
-
-    .main__wrapper-button {
-        flex-wrap: nowrap;
-    }
-
-    .main__wrapper-button {
-        overflow-x: scroll;
-        top: 25%;
-    }
-
-    .main__button {
-
-        height: 10px;
-    }
-
-    .main__blog {
-        top: 100px;
-    }
-
-    .arrov {
-        width: 8px;
-        height: 8px;
-        margin-top: 5%;
-    }
-
 }
 
-@media (min-width:321px) and (max-width:414px) {
-    .header__nav {
-        display: none;
-    }
-
-    .header__button {
-        display: none;
-    }
-
-    .main__wrapper-button {
-        flex-wrap: nowrap;
-        overflow-x: scroll;
-        top: 140px;
-    }
-
-    .main__button {
-        height: 20px;
-    }
-
-    .main__blog {
-        top: 100px;
-    }
-
-    .arrov {
-        width: 8px;
-        height: 8px;
-        margin-top: 5%;
-    }
-
-}
-
-@media (min-width:415px) and (max-width:768px) {
-    .header__nav {
-        display: none;
-    }
-
-    .header__button {
-        display: none;
-    }
-
-    .main__wrapper-button {
-        flex-wrap: wrap;
-    }
-}
-
+/* навигация на 1024px */
 @media (min-width:769px) and (max-width: 1024px) {
     .header__nav {
         display: flex;
@@ -85,24 +62,15 @@
         align-items: flex-start;
         padding-left: 10vw;
         gap: 2rem;
-
         position: absolute;
         width: auto;
         left: 10vw;
         top: 39.47%;
         bottom: 39.47%;
     }
-
-    .header__button {
-        display: none;
-    }
-
-    .main__wrapper-button {
-        flex-wrap: wrap;
-    }
 }
 
-
+/* стили для header на 1440px c кнопкой */
 @media (min-width:1025px) {
     .header__nav {
         width: 704px;
@@ -143,7 +111,6 @@
         flex-grow: 0;
     }
 
-
     .vector {
         position: absolute;
         width: 100%;
@@ -153,48 +120,4 @@
         z-index: -1;
         background: linear-gradient(180deg, rgba(255, 255, 255, 0) 41.95%, #FFFFFF 70.27%), #EFF5FB;
     }
-}
-
-.body {
-    position: relative;
-    width: 100%;
-    height: auto;
-    background: #FFFFFF;
-}
-
-.header {
-    width: 100%;
-    height: 76px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    background: #FFFFFF;
-    box-shadow: inset 0px -2px 0px #EFF2F2;
-}
-
-.wrapper__logo {
-    width: 51px;
-    height: 36px;
-    margin-left: 10vw;
-    margin-top: 20px;
-}
-
-.header__link {
-    width: auto;
-    height: 16px;
-    display: flex;
-    flex: none;
-    align-items: center;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 114%;
-    letter-spacing: 0.25px;
-    color: #333333;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    order: 0;
-    flex-grow: 0;
 }

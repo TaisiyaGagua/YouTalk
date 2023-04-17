@@ -1,0 +1,194 @@
+/* footer не отображается на всех экранах меньше 1025px*/
+@media (max-width: 1024px) {
+    .footer {
+        display: none;
+    }
+}
+
+/*стили для footer 1440*/
+@media (min-width:1025px) {
+    .footer {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        background: #2963A3;
+        height: 22vw;
+        width: 100%;
+        top: 150vw;
+    }
+
+    .footer__member-skolkovo {
+        position: absolute;
+        width: 221px;
+        height: 50px;
+        left: 1038px;
+        top: 40px;
+    }
+
+    .footer__parthners-logo {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+        position: absolute;
+        width: 176px;
+        height: 32px;
+        left: 1038px;
+        top: 130px;
+    }
+
+    /*логотип Дзен состоял из двух векторов, я задала z-index и сделала отрицательный margin, чтобы наложить один на другой*/
+    #logo_dzen {
+        margin-left: -40px;
+        z-index: 0;
+    }
+
+    #logo_dzen_white {
+        z-index: 1;
+    }
+
+    .footer__documents {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 48px;
+        position: absolute;
+        width: 95%;
+        height: 20px;
+        top: 265px;
+        left: 2vw;
+        padding-top: 1vw;
+        border-top: 1px solid #9D9D9D;
+    }
+
+    .footer_link {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #FFFFFF;
+        opacity: 0.7;
+        text-decoration: none;
+    }
+
+    .footer__mail {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+        position: absolute;
+        width: 486px;
+        height: 170px;
+        left: 528px;
+        top: 40px;
+    }
+
+    .footer__mail-discription {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+        width: 384px;
+        height: 108px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+
+    input {
+        padding-left: 16px;
+        box-sizing: border-box;
+        width: 384px;
+        height: 48px;
+        background: #FFFFFF;
+        border: 1px solid rgba(157, 157, 157, 0.2);
+        border-radius: 4px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #9D9D9D;
+    }
+
+    .footer__email {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        height: 49px;
+        left: 320px;
+        top: 35%;
+        background: #16C8BB;
+        border-radius: 4px;
+        border-style: none;
+    }
+
+    .footer__email-text {
+        width: 486px;
+        height: 54px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.25px;
+        color: #FFFFFF;
+        opacity: 0.7;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin-left: -1vw;
+    }
+
+    .footer__list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+        position: absolute;
+        width: auto;
+        height: 184px;
+        top: 40px;
+    }
+
+    .footer__list1 {
+        margin-left: 10vw;
+    }
+
+    .footer__list2 {
+        left: 324px;
+    }
+
+    .footer__link {
+        width: auto;
+        height: 24px;
+        text-decoration: none;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+}
