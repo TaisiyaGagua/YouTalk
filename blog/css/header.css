@@ -1,0 +1,117 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100vw;
+    height: 76px;
+    background: #FFFFFF;
+    box-shadow: inset 0px -2px 0px #EFF2F2;
+}
+
+.header__logo {
+    margin-left: 10vw;
+    align-self: center;
+    width: 51px;
+    height: 36px;
+}
+
+.header__nav {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 2vw;
+    margin-left: 3.5vw;
+}
+
+.header__link {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #333333;
+}
+
+.header__button {
+    width: 18vw;
+    height: 3vw;
+    position: absolute;
+    left: 75vw;
+    top: 1vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2em;
+    background: #E3F5F5;
+    border-radius: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 1.1vw;
+    font-weight: 700;
+    border-style: none;
+    color: #03B2A5;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        background-color: white;
+        border-style: none;
+        width: 18px;
+        height: 18px;
+        align-self: center;
+        margin-left: 75vw;
+    }
+
+}
+
+@media (max-width: 1023px) {
+    .header__button {
+        display: none;
+    }
+
+    .header__nav {
+        display: none;
+    }
+}
+
+@media (min-width:769px) and (max-width: 1024px) {
+    .header__logo {
+        margin-left: 5vw;
+    }
+
+    .header__nav {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        width: 60vw;
+    }
+
+    .header__link {
+        font-size: 1.3vw;
+    }
+
+    .header__button {
+        margin-top: 1.3vw;
+    }
+
+    .menu {
+        display: none;
+    }
+}
+
+@media (min-width:1025px) {
+    .menu {
+        display: none;
+    }
+}
+
+@media (max-width: 414px) {
+    .menu {
+        margin-left: 65vw;
+    }
+}
