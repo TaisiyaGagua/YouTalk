@@ -1,18 +1,17 @@
 aside {
-    position: absolute;
-    margin: -408vw 10vw 400vw 65vw;
     display: flex;
+    position: absolute;
     flex-direction: column;
     gap: 2vw;
-
+    margin: -408vw 10vw 400vw 65vw;
 }
 
 .aside_box {
-    background: #FFFFFF;
-    border-radius: 16px;
     display: flex;
     flex-direction: column;
     gap: 2vw;
+    border-radius: 16px;
+    background: #FFFFFF;
     padding: 2vw;
 }
 
@@ -22,66 +21,65 @@ aside {
 
 .aside_box2,
 .aside_box4 {
-    border: 1px solid #DEDEDE;
     display: flex;
     flex-direction: column;
     gap: 1vw;
+    border: 1px solid #DEDEDE;
     padding: 2vw;
     filter: drop-shadow(0px 30px 50px #EFF5FB);
 }
 
 .dots1 {
-
+    align-self: center;
     margin-bottom: -9vw;
     width: 13vw;
-    align-self: center;
 }
 
 .yellow {
-    width: 13vw;
     margin-bottom: -14.6vw;
     margin-left: 1vw;
+    width: 13vw;
 }
 
 h5 {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    color: #333333;
     text-align: center;
     line-height: 2vw;
+    color: #333333;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-style: normal;
 }
 
 .aside_text {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
     text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: normal;
 }
 
 .button_detail {
     display: flex;
     flex-direction: row;
     align-items: center;
+    border-style: none;
+    border-radius: 4px;
+    background: #03B2A5;
     padding-left: 5.5vw;
     width: 18vw;
     height: 3vw;
-    background: #03B2A5;
-    border-radius: 4px;
+    color: #E3F5F5;
     font-family: 'Montserrat';
-    font-style: normal;
     font-size: 1.1vw;
     font-weight: 700;
-    border-style: none;
-    color: #E3F5F5;
+    font-style: normal;
 }
 
 .circle_image {
     display: inline-block;
-    border-radius: 50%;
-    overflow: hidden;
-    width: 10em;
     align-self: center;
+    border-radius: 50%;
+    width: 10em;
+    overflow: hidden;
 }
 
 .circle_image img {
@@ -91,10 +89,10 @@ h5 {
 }
 
 h6 {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
     text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-style: normal;
 }
 
 .aside_info_liliya {
@@ -105,41 +103,39 @@ h6 {
 }
 
 .text_info_liliya {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    color: #A2A7B1;
     margin-bottom: 1vw;
+    color: #A2A7B1;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: normal;
 }
 
 .aside_liliya_working {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
     text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-style: normal;
 }
 
 .liliya_work {
     font-weight: 400;
 }
 
-
-
 .aside_box3 {
     margin: -2vw;
 }
 
 .gift_box {
-    margin-top: -11vw;
     display: grid;
-    grid-template-columns: repeat(6, 7.3vw);
     grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(6, 7.3vw);
     align-items: end;
+    margin-top: -11vw;
 }
 
 .gift_yellow {
-    border-radius: 0 0 0 16px;
     z-index: 1;
+    border-radius: 0 0 0 16px;
 }
 
 .gift_red {
@@ -147,12 +143,12 @@ h6 {
 }
 
 .box_buy {
-    margin-left: 11vw;
-    margin-top: -5vw;
     display: grid;
-    grid-template-columns: repeat(3, 3vw);
     grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 3vw);
     align-items: end;
+    margin-top: -5vw;
+    margin-left: 11vw;
 }
 
 .gift5 {
@@ -164,11 +160,10 @@ h6 {
     filter: drop-shadow(0px 30px 50px #EFF5FB);
 }
 
-
 .button_buy {
+    padding-left: 2.5vw;
     width: 9vw;
     text-align: center;
-    padding-left: 2.5vw;
 }
 
 .text_box5 {
@@ -176,12 +171,12 @@ h6 {
 }
 
 .connect_liliya {
-    width: auto;
     display: flex;
     flex-direction: column;
     gap: 1vw;
-    margin-bottom: -3vw;
     z-index: 1;
+    margin-bottom: -3vw;
+    width: auto;
 }
 
 .connect_write {
@@ -196,17 +191,17 @@ h6 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 1vw;
-    background: rgba(243, 244, 248, 0.7);
     border-radius: 6px;
+    background: rgba(243, 244, 248, 0.7);
+    padding-left: 1vw;
     height: 2vw;
 }
 
 @media (min-width:1025px) {
     .liliya_work::before {
+        margin-right: .5vw;
         color: #03B2A5;
         content: "•";
-        margin-right: .5vw;
     }
 
     aside {
@@ -220,13 +215,13 @@ h6 {
 
 @media (max-width:1024px) {
     aside {
-        width: 22vw;
         margin: -615vw 10vw 40vw 70vw;
+        width: 22vw;
     }
 
     .liliya_work {
-        width: 15vw;
         margin: -2.5vw 0vw 0vw 2vw;
+        width: 15vw;
     }
 
     .attack {
@@ -262,15 +257,14 @@ h6 {
 
 @media (max-width:768px) {
     aside {
-
-        width: 40vw;
         margin: 1vw;
+        width: 40vw;
     }
 
     .button_detail {
-        height: 4vw;
-        width: 35vw;
         padding-left: 12vw;
+        width: 35vw;
+        height: 4vw;
         font-size: 2vw;
     }
 
@@ -284,8 +278,8 @@ h6 {
     }
 
     .dots1 {
-        margin-bottom: -11vw;
         margin-top: 2vw;
+        margin-bottom: -11vw;
     }
 
     .yellow {
@@ -302,8 +296,6 @@ h6 {
 
     .aside_box4 {
         height: 27vw;
-
-
     }
 
     .text_box4 {
@@ -311,14 +303,14 @@ h6 {
     }
 
     .button_buy {
+        padding-left: 5vw;
         width: 17vw;
         height: 4vw;
-        padding-left: 5vw;
     }
 
     .box_buy {
-        margin-left: 19vw;
         margin-top: -9vw;
+        margin-left: 19vw;
     }
 
     .gift4 {
@@ -340,16 +332,15 @@ h6 {
     }
 
     aside {
-        width: 80vw;
         display: flex;
         flex-direction: row;
         gap: 2vw;
+        width: 80vw;
     }
 
     .aside_box3 {
         display: none;
     }
-
 }
 
 @media (max-width:414px) {
@@ -372,13 +363,13 @@ h6 {
     }
 
     .dots1 {
-        margin-bottom: -13vw;
         margin-top: 2vw;
+        margin-bottom: -13vw;
     }
 
     .yellow {
-        margin-left: 19vw;
         margin-bottom: -30vw;
+        margin-left: 19vw;
     }
 
     .aside_img1 {
@@ -390,9 +381,9 @@ h6 {
     }
 
     .button_detail {
-        height: 10vw;
-        width: 70vw;
         padding-left: 22vw;
+        width: 70vw;
+        height: 10vw;
         font-size: 4vw;
     }
 
@@ -419,8 +410,8 @@ h6 {
     }
 
     .button_buy {
-        width: 35vw;
         padding-left: 9vw;
+        width: 35vw;
     }
 
     .gift4 {
@@ -428,11 +419,11 @@ h6 {
     }
 
     .aside_box4 {
+        margin-bottom: 20vw;
         margin-left: 3vw;
         padding-bottom: 0;
         width: 64vw;
         height: auto;
-        margin-bottom: 20vw;
     }
 
     .box_buy {
@@ -446,7 +437,6 @@ h6 {
     .connect_write {
         width: 25vw;
         height: 6vw;
-
     }
 
     .connect_video {
@@ -478,8 +468,8 @@ h6 {
     }
 
     .aside_box3 {
-        padding: 1.5vw;
         margin-top: 3vw;
+        padding: 1.5vw;
     }
 
     .gift3 {
@@ -494,7 +484,6 @@ h6 {
     .aside_box4 {
         margin: 3vw 0 20vw 0;
         width: 70vw;
-
     }
 
     .button_buy {
@@ -502,8 +491,7 @@ h6 {
     }
 
     .box_buy {
-        margin-left: 47vw;
         margin-top: -12vw;
+        margin-left: 47vw;
     }
-
 }

@@ -1,41 +1,40 @@
 .main {
     margin-top: 1vw;
-    margin-left: 10vw;
     margin-right: 10vw;
+    margin-left: 10vw;
 }
 
 .breadcrumbs {
-    width: auto;
-    height: 18px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-
+    width: auto;
+    height: 18px;
 }
 
 .breadcrumbs_main {
-    width: auto;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
     display: flex;
     align-items: center;
+    width: auto;
     text-align: center;
+    text-decoration: none;
+    line-height: 18px;
     letter-spacing: 0.25px;
     color: rgba(51, 51, 51, 0.7);
-    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h1 {
     width: auto;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 4vw;
     line-height: 56px;
     color: #333333;
+    font-family: 'Montserrat';
+    font-size: 4vw;
+    font-weight: 700;
+    font-style: normal;
 }
 
 article {
@@ -52,29 +51,28 @@ article {
 
 .author,
 .date {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
     line-height: 20px;
     color: #494949;
-
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .img__hero1 {
-    width: 62vw;
     margin-bottom: 2vw;
+    width: 62vw;
 }
 
 h4 {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2vw;
-    line-height: 1vw;
-    color: #333333;
     margin-top: 2vw;
     margin-bottom: 2vw;
+    line-height: 1vw;
+    color: #333333;
+    font-family: 'Montserrat';
+    font-size: 2vw;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .content {
@@ -82,30 +80,29 @@ h4 {
 }
 
 p {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-
-    letter-spacing: 0.25px;
 
     line-height: 2vw;
+    letter-spacing: 0.25px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: normal;
 }
 
 h3 {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    color: #333333;
-    font-size: 3vw;
     line-height: 5vw;
+    color: #333333;
+    font-family: 'Montserrat';
+    font-size: 3vw;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .headline {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    color: #333333;
     line-height: 2vw;
+    color: #333333;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-style: normal;
 }
 
 section {
@@ -114,27 +111,27 @@ section {
 
 .self,
 .link_end {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    color: #2963A3;
     text-decoration: none;
+    color: #2963A3;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
 }
 
 blockquote {
-    background: #F3F7FE;
-    border-radius: 16px;
     flex-direction: column;
-    padding: 2vw 0vw 2vw 2vw;
     align-items: flex-start;
-    font-size: 1.3vw;
-    font-family: 'Montserrat';
-    font-style: italic;
-    font-weight: 400;
-    color: #333333;
-    line-height: 2vw;
     margin-bottom: 2vw;
+    border-radius: 16px;
+    background: #F3F7FE;
+    padding: 2vw 0vw 2vw 2vw;
+    line-height: 2vw;
+    color: #333333;
+    font-family: 'Montserrat';
+    font-size: 1.3vw;
+    font-weight: 400;
+    font-style: italic;
 }
 
 .text_quote {
@@ -144,33 +141,31 @@ blockquote {
 
 cite {
     font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
+    font-style: normal;
 }
 
 .capture {
-    color: #868686;
     margin-top: -1vw;
     margin-bottom: 2vw;
-
+    color: #868686;
 }
 
 i {
     width: 40vw;
     font-family: 'Montserrat';
-    font-style: italic;
     font-weight: 400;
+    font-style: italic;
 }
 
 .main_coursive {
     display: flex;
-    margin: -15vw 4vw 5vw;
-    padding: 5vw;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    margin: -15vw 4vw 5vw;
+    padding: 5vw;
     text-align: center;
-
 }
 
 .vector {
@@ -187,8 +182,8 @@ i {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background: #FEFAEC;
     border-radius: 16px;
+    background: #FEFAEC;
     padding: 2vw;
 }
 
@@ -197,16 +192,15 @@ i {
 }
 
 .exercise2 {
-
     background: #FFF3EB;
 }
 
 .container {
-    width: 62vw;
-    margin: 3vw 0;
     display: flex;
     flex-wrap: wrap;
     gap: 2vw;
+    margin: 3vw 0;
+    width: 62vw;
 }
 
 
@@ -218,15 +212,15 @@ i {
 .flash_vector {
     display: flex;
     flex-direction: row;
+    gap: 2vw;
     align-items: center;
     justify-content: center;
-    gap: 2vw;
     margin-bottom: 2vw;
 }
 
 .flash {
-    margin-left: -3.7vw;
     margin-right: .5vw;
+    margin-left: -3.7vw;
 }
 
 
@@ -240,20 +234,20 @@ i {
 
 @media (max-width:320px) {
     .breadcrumbs {
-        width: 85vw;
-        margin-bottom: 1vw;
         margin-top: 2vw;
+        margin-bottom: 1vw;
+        width: 85vw;
         height: 10vw;
     }
 
     .breadcrumbs_main {
-        font-size: 3vw;
         text-align: start;
+        font-size: 3vw;
     }
 
     h1 {
-        font-size: 4vw;
         line-height: 4vw;
+        font-size: 4vw;
     }
 
     .author,
@@ -271,8 +265,8 @@ i {
     p,
     .text_quote,
     cite {
-        font-size: 3vw;
         line-height: 5vw;
+        font-size: 3vw;
     }
 
     .text_quote {
@@ -281,16 +275,16 @@ i {
     }
 
     h4 {
-        font-size: 3.5vw;
         margin-top: 4vw;
         margin-bottom: 4vw;
+        font-size: 3.5vw;
     }
 
     .text2 {
         width: 50vw;
-        white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        white-space: nowrap;
     }
 
     .mother_article,
@@ -304,9 +298,9 @@ i {
     }
 
     li:before {
+        margin-right: 2vw;
         color: #03B2A5;
         content: "•";
-        margin-right: 2vw;
     }
 
     ul {
@@ -331,24 +325,23 @@ i {
     }
 
     .instructure {
-        margin-left: 5vw;
         margin-top: -5vw;
-        line-height: 5vw;
         margin-bottom: 2vw;
+        margin-left: 5vw;
+        line-height: 5vw;
     }
 
     .vector {
-        width: 40vw;
         margin-top: 3vw;
         margin-left: 20vw;
+        width: 40vw;
     }
 
     .main_coursive {
-        width: 60vw;
+        justify-content: start;
         margin-top: -30vw;
         margin-bottom: 2vw;
-        justify-content: start;
-
+        width: 60vw;
     }
 
     i {
@@ -387,25 +380,23 @@ i {
     }
 
     .flash {
-        margin-left: -9.7vw;
         margin-right: 2.5vw;
+        margin-left: -9.7vw;
     }
 }
 
 
 @media (min-width:321px) and (max-width:414px) {
     .breadcrumbs {
-        width: 90vw;
-        margin-bottom: 1vw;
         margin-top: 3vw;
+        margin-bottom: 1vw;
+        width: 90vw;
         height: 10vw;
     }
 
-
-
     h1 {
-        font-size: 5vw;
         line-height: 6vw;
+        font-size: 5vw;
     }
 
     h3 {
@@ -425,16 +416,16 @@ i {
     }
 
     h4 {
-        font-size: 3vw;
         margin-top: 4vw;
         margin-bottom: 4vw;
+        font-size: 3vw;
     }
 
     .text2 {
         width: 50vw;
-        white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        white-space: nowrap;
     }
 
     .mother_article,
@@ -445,13 +436,12 @@ i {
     li {
         list-style-type: none;
         line-height: 5vw;
-
     }
 
     li:before {
+        margin-right: 2vw;
         color: #03B2A5;
         content: "•";
-        margin-right: 2vw;
     }
 
     ul {
@@ -464,8 +454,8 @@ i {
     }
 
     .main__text {
-        width: 80vw;
         margin-bottom: 3vw;
+        width: 80vw;
     }
 
     .article__text,
@@ -481,8 +471,8 @@ i {
     }
 
     .exercise {
-        width: 76vw;
         margin: 3vw 0;
+        width: 76vw;
     }
 
     h3 {
@@ -492,13 +482,13 @@ i {
     p,
     .text_quote,
     cite {
-        font-size: 3vw;
         line-height: 4vw;
+        font-size: 3vw;
     }
 
     .breadcrumbs_main {
-        font-size: 3vw;
         text-align: start;
+        font-size: 3vw;
     }
 
 
@@ -508,30 +498,29 @@ i {
     }
 
     blockquote {
-        width: 75vw;
         padding: 2vw;
+        width: 75vw;
     }
 
     .instructure {
-        width: 72vw;
-        margin-left: 5vw;
         margin-top: -5vw;
-        line-height: 5vw;
         margin-bottom: 2vw;
+        margin-left: 5vw;
+        width: 72vw;
+        line-height: 5vw;
     }
 
     .vector {
-        width: 40vw;
         margin-top: 3vw;
         margin-left: 20vw;
+        width: 40vw;
     }
 
     .main_coursive {
-        width: 60vw;
+        justify-content: start;
         margin-top: -30vw;
         margin-bottom: 2vw;
-        justify-content: start;
-
+        width: 60vw;
     }
 
     i {
@@ -566,31 +555,21 @@ i {
     }
 
     .flash {
-        margin-left: -8vw;
         margin-right: 2vw;
+        margin-left: -8vw;
     }
-
-
-
 }
 
 
 @media (min-width:415px) and (max-width:768px) {
     h1 {
-        font-size: 5.5vw;
         line-height: 7vw;
+        font-size: 5.5vw;
     }
 
-    .img__hero1 {
-        width: 80vw;
-    }
-
+    .img__hero1,
     .main__text {
         width: 80vw;
-    }
-
-    h4 {
-        font-size: 2vw;
     }
 
     .mother_article,
@@ -604,24 +583,15 @@ i {
     }
 
     li:before {
+        margin-right: 2vw;
         color: #03B2A5;
         content: "•";
-        margin-right: 2vw;
     }
 
     ul {
         margin-left: 2vw;
         list-style-position: outside;
 
-    }
-
-    .headline {
-        font-size: 2vw;
-    }
-
-    .main__text {
-        font-size: 2vw;
-        line-height: 3vw;
     }
 
     p {
@@ -631,7 +601,9 @@ i {
     .text_quote,
     cite,
     i,
-    .article__text {
+    .article__text,
+    h4,
+    .headline  {
         font-size: 2vw;
     }
 
@@ -651,25 +623,25 @@ i {
     }
 
     .instructure {
-        width: 75vw;
-        margin-left: 3vw;
         margin-top: -3vw;
-        line-height: 3vw;
         margin-bottom: 2vw;
+        margin-left: 3vw;
+        width: 75vw;
+        line-height: 3vw;
         font-size: 2.2vw;
     }
 
     .vector {
-        width: 20vw;
         margin-top: 1vw;
         margin-left: 23vw;
+        width: 20vw;
     }
 
     .main_coursive {
-        width: 60vw;
+        justify-content: start;
         margin-top: -15vw;
         margin-bottom: 2vw;
-        justify-content: start;
+        width: 60vw;
         line-height: 2vw;
     }
 
@@ -678,29 +650,28 @@ i {
         line-height: 3vw;
     }
 
-    .exercise_text {
-        font-size: 2vw;
+    .exercise_text,
+    .main__text  {
         line-height: 3vw;
+        font-size: 2vw;
     }
 
     .text_near_pic {
         margin-top: -50vw;
-        margin-left: 40vw;
         margin-bottom: 13vw;
+        margin-left: 40vw;
         width: 37vw;
     }
 
     .text_near_pic2 {
         margin-top: -25vw;
         margin-left: 40vw;
-
         width: 43vw;
     }
 
     .container,
     .flash_vector {
         width: 82vw;
-
     }
 
     .article__text3,
@@ -717,12 +688,10 @@ i {
     }
 }
 
-
-
 @media (min-width:769px) and (max-width: 1024px) {
     .main {
-        margin-left: 5vw;
         margin-right: 27vw;
+        margin-left: 5vw;
     }
 
     .mother_article,
@@ -734,24 +703,20 @@ i {
         list-style-type: none;
         line-height: 3.5vw;
         font-size: 2vw;
-        width: 70vw;
-
     }
 
     li:before {
-        color: #03B2A5;
-        content: "•";
         margin-right: 2vw;
         width: 8px;
         height: 8px;
+        color: #03B2A5;
+        content: "•";
     }
 
     ul {
         margin-left: 2vw;
         list-style-position: outside;
     }
-
-
 
     p,
     i {
@@ -767,8 +732,8 @@ i {
     cite,
     .article__text,
     .exercise_text {
-        font-size: 2vw;
         line-height: 3vw;
+        font-size: 2vw;
     }
 
     blockquote {
@@ -776,13 +741,12 @@ i {
         padding: 2vw;
     }
 
-
     .instructure {
-        width: 55vw;
-        margin-left: 3vw;
         margin-top: -3vw;
-        line-height: 3vw;
         margin-bottom: 2vw;
+        margin-left: 3vw;
+        width: 55vw;
+        line-height: 3vw;
         font-size: 2.2vw;
     }
 
@@ -798,8 +762,8 @@ i {
 
     .text_near_pic {
         margin-top: -39vw;
-        margin-left: 30vw;
         margin-bottom: 7vw;
+        margin-left: 30vw;
         width: 37vw;
         height: 30vw;
     }
@@ -810,9 +774,9 @@ i {
 
     .text_near_pic2 {
         margin-top: -19vw;
+        margin-bottom: 3vw;
         margin-left: 29vw;
         width: 40vw;
-        margin-bottom: 3vw;
     }
 
     .flash {
@@ -824,70 +788,67 @@ i {
     }
 }
 
-
-
 @media (min-width:1025px) {
     .main {
         margin-right: 32vw;
     }
 
     .mother_article {
-        margin-left: 3vw;
         display: grid;
-        grid-template-columns: repeat(24, 23px);
         grid-template-rows: repeat(5, 25px);
+        grid-template-columns: repeat(24, 23px);
         margin-bottom: .5vw;
+        margin-left: 3vw;
         line-height: 1vw;
 
     }
 
     .headline1 {
-        white-space: nowrap;
         grid-column: 1/5;
+        white-space: nowrap;
     }
 
     .headline2 {
-        white-space: nowrap;
-        grid-column: 2/5;
         grid-row: 2/6;
+        grid-column: 2/5;
+        white-space: nowrap;
     }
 
     .headline3 {
-        white-space: nowrap;
         grid-row: 3/6;
         grid-column: 3/5;
+        white-space: nowrap;
     }
 
     .headline4 {
-        white-space: nowrap;
         grid-row: 4/6;
         grid-column: 4/5;
+        white-space: nowrap;
     }
 
     .headline5 {
-        white-space: nowrap;
         grid-row: 5/6;
         grid-column: 1/5;
+        white-space: nowrap;
     }
 
     .instructure::before {
+        margin-right: 1vw;
         color: #03B2A5;
         content: "•";
-
-        margin-right: 1vw;
 
     }
 
     .instructure {
-        line-height: 2vw;
         margin-bottom: 2vw;
+        line-height: 2vw;
     }
 
     .text_near_pic {
         margin-top: -28vw;
+        margin-bottom: 13vw;
         margin-left: 23vw;
         width: 38vw;
-        margin-bottom: 13vw;
     }
 
     .vector3 {
@@ -916,11 +877,11 @@ i {
     }
 
     .link_cont {
-        margin: 2vw 0;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         gap: .5vw;
         align-items: center;
+        margin: 2vw 0;
     }
 }
