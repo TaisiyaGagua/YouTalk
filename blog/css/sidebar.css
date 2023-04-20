@@ -1,0 +1,509 @@
+aside {
+    position: absolute;
+    margin: -408vw 10vw 400vw 65vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+
+}
+
+.aside_box {
+    background: #FFFFFF;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding: 2vw;
+}
+
+.aside_box1 {
+    background: #E6F0FD;
+}
+
+.aside_box2,
+.aside_box4 {
+    border: 1px solid #DEDEDE;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 2vw;
+    filter: drop-shadow(0px 30px 50px #EFF5FB);
+}
+
+.dots1 {
+
+    margin-bottom: -9vw;
+    width: 13vw;
+    align-self: center;
+}
+
+.yellow {
+    width: 13vw;
+    margin-bottom: -14.6vw;
+    margin-left: 1vw;
+}
+
+h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    color: #333333;
+    text-align: center;
+    line-height: 2vw;
+}
+
+.aside_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+.button_detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 5.5vw;
+    width: 18vw;
+    height: 3vw;
+    background: #03B2A5;
+    border-radius: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-size: 1.1vw;
+    font-weight: 700;
+    border-style: none;
+    color: #E3F5F5;
+}
+
+.circle_image {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 10em;
+    align-self: center;
+}
+
+.circle_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h6 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+}
+
+.aside_info_liliya {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 1px 0px #DEDEDE;
+}
+
+.text_info_liliya {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    color: #A2A7B1;
+    margin-bottom: 1vw;
+}
+
+.aside_liliya_working {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+.liliya_work {
+    font-weight: 400;
+}
+
+
+
+.aside_box3 {
+    margin: -2vw;
+}
+
+.gift_box {
+    margin-top: -11vw;
+    display: grid;
+    grid-template-columns: repeat(6, 7.3vw);
+    grid-template-rows: repeat(1, 1fr);
+    align-items: end;
+}
+
+.gift_yellow {
+    border-radius: 0 0 0 16px;
+    z-index: 1;
+}
+
+.gift_red {
+    border-radius: 0 0 16px 0;
+}
+
+.box_buy {
+    margin-left: 11vw;
+    margin-top: -5vw;
+    display: grid;
+    grid-template-columns: repeat(3, 3vw);
+    grid-template-rows: repeat(1, 1fr);
+    align-items: end;
+}
+
+.gift5 {
+    border-radius: 0 0 16px 0;
+}
+
+.aside_box4 {
+    padding-bottom: 0;
+    filter: drop-shadow(0px 30px 50px #EFF5FB);
+}
+
+
+.button_buy {
+    width: 9vw;
+    text-align: center;
+    padding-left: 2.5vw;
+}
+
+.text_box5 {
+    color: #2963A3;
+}
+
+.connect_liliya {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    margin-bottom: -3vw;
+    z-index: 1;
+}
+
+.connect_write {
+    width: 10vw;
+}
+
+.connect_video {
+    width: 6vw;
+}
+
+.connect_text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 1vw;
+    background: rgba(243, 244, 248, 0.7);
+    border-radius: 6px;
+    height: 2vw;
+}
+
+@media (min-width:1025px) {
+    .liliya_work::before {
+        color: #03B2A5;
+        content: "•";
+        margin-right: .5vw;
+    }
+
+    aside {
+        width: 22vw;
+    }
+
+    blockquote {
+        padding-right: 4vw;
+    }
+}
+
+@media (max-width:1024px) {
+    aside {
+        width: 22vw;
+        margin: -615vw 10vw 40vw 70vw;
+    }
+
+    .liliya_work {
+        width: 15vw;
+        margin: -2.5vw 0vw 0vw 2vw;
+    }
+
+    .attack {
+        display: none;
+    }
+
+    .gift3 {
+        width: 10vw;
+    }
+
+    .gift_box {
+        grid-template-columns: repeat(6, 6vw);
+        margin-top: -10vw;
+    }
+
+    .gift4 {
+        width: 8vw;
+    }
+
+    .box_buy {
+        margin-left: 8.8vw;
+    }
+
+    .connect_write {
+        width: 12vw;
+    }
+
+    .connect_video {
+        width: 8vw;
+    }
+
+}
+
+@media (max-width:768px) {
+    aside {
+
+        width: 40vw;
+        margin: 1vw;
+    }
+
+    .button_detail {
+        height: 4vw;
+        width: 35vw;
+        padding-left: 12vw;
+        font-size: 2vw;
+    }
+
+    .dots1,
+    .yellow {
+        width: 15vw;
+    }
+
+    .aside_img1 {
+        width: 20vw;
+    }
+
+    .dots1 {
+        margin-bottom: -11vw;
+        margin-top: 2vw;
+    }
+
+    .yellow {
+        margin-left: 9vw;
+    }
+
+    .aside_img1 {
+        margin-left: 8vw;
+    }
+
+    .aside_box1 {
+        margin-bottom: 10vw;
+    }
+
+    .aside_box4 {
+        height: 27vw;
+
+
+    }
+
+    .text_box4 {
+        line-height: 3vw;
+    }
+
+    .button_buy {
+        width: 17vw;
+        height: 4vw;
+        padding-left: 5vw;
+    }
+
+    .box_buy {
+        margin-left: 19vw;
+        margin-top: -9vw;
+    }
+
+    .gift4 {
+        width: 15vw;
+    }
+}
+
+@media (min-width:415px) and (max-width:768px) {
+    .aside_box2 {
+        display: none;
+    }
+
+    .aside_box1 {
+        width: 35vw;
+    }
+
+    .gift {
+        margin: -2vw;
+    }
+
+    aside {
+        width: 80vw;
+        display: flex;
+        flex-direction: row;
+        gap: 2vw;
+    }
+
+    .aside_box3 {
+        display: none;
+    }
+
+}
+
+@media (max-width:414px) {
+    aside {
+        width: 80vw;
+    }
+
+    .aside_box {
+        gap: 3vw;
+        padding: 5vw
+    }
+
+    .dots1,
+    .yellow {
+        width: 25vw;
+    }
+
+    .aside_img1 {
+        width: 40vw;
+    }
+
+    .dots1 {
+        margin-bottom: -13vw;
+        margin-top: 2vw;
+    }
+
+    .yellow {
+        margin-left: 19vw;
+        margin-bottom: -30vw;
+    }
+
+    .aside_img1 {
+        margin-left: 16vw;
+    }
+
+    h5 {
+        line-height: 5vw;
+    }
+
+    .button_detail {
+        height: 10vw;
+        width: 70vw;
+        padding-left: 22vw;
+        font-size: 4vw;
+    }
+
+    .liliya_work {
+        margin: -5vw 0vw 0vw 5vw;
+        line-height: 6vw;
+    }
+
+    .gift_box {
+        grid-template-columns: repeat(3, 22vw);
+        margin-top: -28vw;
+    }
+
+    .gift3 {
+        width: 30vw;
+    }
+
+    .circle_image {
+        width: 30vw;
+    }
+
+    .text_box4 {
+        line-height: 5vw;
+    }
+
+    .button_buy {
+        width: 35vw;
+        padding-left: 9vw;
+    }
+
+    .gift4 {
+        width: 25vw;
+    }
+
+    .aside_box4 {
+        margin-left: 3vw;
+        padding-bottom: 0;
+        width: 64vw;
+        height: auto;
+        margin-bottom: 20vw;
+    }
+
+    .box_buy {
+        margin-left: 41vw;
+    }
+
+    .aside_box1 {
+        margin-bottom: 2vw;
+    }
+
+    .connect_write {
+        width: 25vw;
+        height: 6vw;
+
+    }
+
+    .connect_video {
+        width: 16vw;
+        height: 6vw;
+    }
+
+    .connect_liliya {
+        gap: 3vw;
+        margin-bottom: -10vw;
+    }
+
+    .attack {
+        display: inline;
+    }
+
+    .price {
+        font-size: 5vw;
+    }
+}
+
+@media (max-width:320px) {
+    h5 {
+        line-height: 7vw;
+    }
+
+    .aside_box2 {
+        margin-top: 3vw;
+    }
+
+    .aside_box3 {
+        padding: 1.5vw;
+        margin-top: 3vw;
+    }
+
+    .gift3 {
+        width: 37vw;
+    }
+
+    .gift_box {
+        grid-template-columns: repeat(3, 22vw);
+        margin-top: -33vw;
+    }
+
+    .aside_box4 {
+        margin: 3vw 0 20vw 0;
+        width: 70vw;
+
+    }
+
+    .button_buy {
+        height: 10vw;
+    }
+
+    .box_buy {
+        margin-left: 47vw;
+        margin-top: -12vw;
+    }
+
+}

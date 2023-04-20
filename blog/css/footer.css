@@ -1,0 +1,80 @@
+@media (max-width:1024px) {
+    footer {
+        display: none;
+    }
+}
+
+@media (min-width:1024px) {
+    footer {
+        margin-top: 5vw;
+        border-top: 1px solid #DEDEDE;
+
+    }
+
+    .footer_help {
+        display: flex;
+        flex-direction: column;
+        width: 25vw;
+        margin: 5vw 10vw;
+        gap: 2vw;
+    }
+
+    h2 {
+        width: auto;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+
+        font-size: 3vw;
+        line-height: 3vw;
+    }
+
+    p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+
+        letter-spacing: 0.25px;
+
+        line-height: 2vw;
+    }
+
+    .footer_button {
+        width: 18vw;
+        height: 3vw;
+        left: 75vw;
+        top: 1vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 2em;
+        background: #03B2A5;
+        border-radius: 4px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-size: 1.1vw;
+        font-weight: 700;
+        border-style: none;
+        color: #E3F5F5;
+    }
+
+    .red_vector {
+        margin: -30vw 0vw 0vw 95vw
+    }
+
+    .blue_vector {
+        margin: -25vw 0vw 0vw 50vw;
+
+
+    }
+
+    .vector_pic {
+        width: 30vw;
+        margin: -26vw 0vw 0vw 50vw;
+
+    }
+
+    .last_vector {
+        margin-top: -2vw;
+    }
+}
